@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    background-color: #F8F4EE;
+    color: #561f04;
+}
+
+header{
+    background-color: #F8F4EE;
+    border-bottom: #561f04 solid 2px;
+    display: flex;
+    height: 12%;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #561f04;
+}
+
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 25px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+li button{
+    border: none;
+    color: #561f04;
+    background-color: #F8F4EE;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+li button:hover{
+    color: #250606;
+    border-bottom: #250606 1px solid;
+}
+
+#loader{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+main{
+    display: flex;
+    padding-top: 150px;
+    padding-bottom: 120px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.container-principal ul{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0; 
+    width: 95%; 
+    margin: 0 auto; 
+}
+
+.container-principal .infosDiv{
+    width: 250px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: #561f04 solid  1px;
+    padding: 10px;
+    margin-bottom: 20px; 
+    min-height: 420px; 
+    font-size: 0.8rem;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.container-principal ul li img {
+    width: 120px; 
+    height: auto;
+    border-radius: 8px;
+}
+
+h1.titulo{
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: #561f04;
+    display: flex;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    flex-wrap: wrap;
+}
+
+
+@media(max-width: 700px){
+    header{
+        min-height: 17%;
+        justify-content: center;
+    }
+
+    ul{
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1.titulo{
+        margin-top: 20px;
+    }
+        
+}
