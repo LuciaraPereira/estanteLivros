@@ -1,6 +1,6 @@
 ### Projeto da faculdade da disciplina de JavaScript ###
 #### Tem como objetivo fazer o consumo de API, com o fetch do JS ####
-<p>Fiz o consumo da API do Google Books</p>
+<p>API do Google Books</p>
 
 <p>Versão Web:</p>
 <img width="1903" height="906" alt="image" src="https://github.com/user-attachments/assets/d804b8db-2e1b-4565-a307-c5b4005b64f7" />
