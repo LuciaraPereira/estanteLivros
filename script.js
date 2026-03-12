@@ -19,6 +19,11 @@ function processarLivros(data){
     let container_principal = document.querySelector(".container-principal")
     container_principal.innerHTML = ''
 
+   if (!data.items) {
+        container_principal.innerHTML = '<p>Nenhum livro encontrado para este gênero.</p>';
+        return;
+    }
+
     data.items.forEach(item => { 
             const titulo = item.volumeInfo.title;
             const autor = item.volumeInfo.authors ? item.volumeInfo.authors[0] : "Autor(a) desconhecido." ;
